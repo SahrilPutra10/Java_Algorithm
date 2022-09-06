@@ -22,6 +22,8 @@ public class operator {
 
         luas = sisi * sisi;
         System.out.format("luasnya persegi adalah : %d", luas);
+        System.out.println("\n\n");
+        inputUser();
     }
 
     // Hitung Segi panjang
@@ -37,6 +39,8 @@ public class operator {
         lebar = input.nextInt();
         int hasil = luas * lebar;
         System.out.format("hasil : %d", hasil);
+        System.out.println("\n\n");
+        inputUser();
 
     }
 
@@ -54,6 +58,8 @@ public class operator {
 
         luas = phi * jari * jari;
         System.out.format("Hasil Luas Lingkaran adalah : %f", luas);
+        System.out.println("\n\n");
+        inputUser();
     }
 
     // HITUNG VOLUME BALOK
@@ -76,6 +82,8 @@ public class operator {
         dimensi = input.next();
 
         System.out.format("Volume balok : %d %s", volume, dimensi);
+        System.out.println("\n\n");
+        inputUser();
     }
 
     static void sisiMiringSegitigaSiku() {
@@ -91,12 +99,13 @@ public class operator {
 
         miring = Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2));
         System.out.format("Panjang Sisi miring Segitiga siku-siku adalah : %f", miring);
+        System.out.println("\n\n");
+        inputUser();
     }
 
-    public static void main(String[] args) {
-        int input_menu;
-        Scanner input = new Scanner(System.in);
-
+    static void inputUser() {
+        int inputUser;
+        Scanner inputanUser = new Scanner(System.in);
         System.out.println("================= Hello  =================");
         System.out.println("==========================================");
         System.out.println("Daftar Program: ");
@@ -107,9 +116,10 @@ public class operator {
         System.out.println("(5). Hitung Sisi Miring Segitiga ");
         System.out.println("\n\n");
         System.out.println("Masukan = ");
-        input_menu = input.nextInt();
+        inputUser = inputanUser.nextInt();
+        System.out.println("\n\n");
 
-        switch (input_menu) {
+        switch (inputUser) {
             case 1:
                 hitungLuasPersegi();
                 break;
@@ -130,6 +140,11 @@ public class operator {
                 System.out.println("Masukan Salah");
                 break;
         }
+    }
+
+    public static void main(String[] args) {
+        inputUser();
+
     }
 
 }
