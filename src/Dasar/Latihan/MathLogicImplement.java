@@ -17,7 +17,7 @@ public class MathLogicImplement {
 
         System.out.println("Volume : " + volume);
         System.out.println("Luas : " + luas);
-
+        input.close();
         inputUser();
     }
 
@@ -36,6 +36,7 @@ public class MathLogicImplement {
         volume = (1 / 3) * (22 / 7) * Math.pow(jari, 2) * tinggi;
 
         System.out.println("Volume kerucut Adalah : " + volume);
+        input.close();
         inputUser();
     }
 
@@ -59,7 +60,9 @@ public class MathLogicImplement {
         jarak = Math.sqrt(a + b);
 
         System.out.println("Jaraknya adalah : " + jarak);
+        input.close();
         inputUser();
+
     }
 
     static void inputUser() {
@@ -89,6 +92,8 @@ public class MathLogicImplement {
                 System.out.println("Pilih tidak valid");
                 break;
         }
+
+        input.close();
     }
 
     public static void main(String[] args) {

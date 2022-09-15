@@ -1,4 +1,4 @@
-package Dasar;
+package Dasar.Latihan;
 
 /*
  *** Sahrilputra
@@ -23,7 +23,9 @@ public class operator {
         luas = sisi * sisi;
         System.out.format("luasnya persegi adalah : %d", luas);
         System.out.println("\n\n");
+        input.close();
         inputUser();
+
     }
 
     // Hitung Segi panjang
@@ -40,6 +42,7 @@ public class operator {
         int hasil = luas * lebar;
         System.out.format("hasil : %d", hasil);
         System.out.println("\n\n");
+        input.close();
         inputUser();
 
     }
@@ -59,6 +62,7 @@ public class operator {
         luas = phi * jari * jari;
         System.out.format("Hasil Luas Lingkaran adalah : %f", luas);
         System.out.println("\n\n");
+        input.close();
         inputUser();
     }
 
@@ -83,6 +87,7 @@ public class operator {
 
         System.out.format("Volume balok : %d %s", volume, dimensi);
         System.out.println("\n\n");
+        input.close();
         inputUser();
     }
 
@@ -100,6 +105,7 @@ public class operator {
         miring = Math.sqrt(Math.pow(alas, 2) + Math.pow(tinggi, 2));
         System.out.format("Panjang Sisi miring Segitiga siku-siku adalah : %f", miring);
         System.out.println("\n\n");
+        input.close();
         inputUser();
     }
 
@@ -140,6 +146,7 @@ public class operator {
                 System.out.println("Masukan Salah");
                 break;
         }
+        inputanUser.close();
     }
 
     public static void main(String[] args) {

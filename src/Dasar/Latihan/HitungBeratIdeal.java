@@ -1,8 +1,6 @@
-package Dasar;
+package Dasar.Latihan;
 
 import java.util.Scanner;
-
-import javax.lang.model.util.ElementScanner14;
 
 /*
  *** sahrilputra
@@ -51,6 +49,8 @@ public class HitungBeratIdeal {
 
         hasil = (int) broca;
         System.out.println("Berat Badan Ideal Anda Menurut Broca " + hasil + " Kg");
+
+        input.close();
 
     }
 }

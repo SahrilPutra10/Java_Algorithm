@@ -1,4 +1,4 @@
-package Dasar;
+package Dasar.Latihan;
 
 import java.util.Scanner;
 
@@ -15,5 +15,7 @@ public class KonversiDetik {
         detik = (konversi % 3600) % 60;
         System.out.format("Konversi dari : %d detik adalah \n", konversi);
         System.out.println(jam + " jam, " + menit + " Menit, " + detik + " Detik.");
+
+        input.close();
     }
 }

@@ -23,5 +23,8 @@ public class GradeNilai {
         } else {
             System.out.println("Inputan Anda Salah");
         }
+
+        input.close();
     }
+
 }

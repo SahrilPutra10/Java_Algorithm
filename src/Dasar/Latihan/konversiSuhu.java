@@ -1,4 +1,4 @@
-package Dasar;
+package Dasar.Latihan;
 
 import java.util.Scanner;
 
@@ -31,6 +31,7 @@ public class konversiSuhu {
         reamur(); // memanggil method agar tampil
         kelvin();
         fahrenheit();
+        input.close();
     }
 
 }

@@ -1,11 +1,26 @@
 package Dasar;
 
+// Apa itu ekspresi bagaimana cara menggunakan ekspresi. 
+
+// Bagaimana cara membedakan ekspresi dan statment? 
+
+/*
+ * Dalam pemograman terdapat Statment dan juga ekspresi yang berperan sebagai instruksi pemograman.
+ * 
+ * Membedakan Statment dan ekspresi 
+ * STATMENT adalah unit sintaks pada bahasa pemrograman yang menyatakan aksi atau tugas untuk dilakukan.
+ * 
+ * EKSPRESI adalah entitas sintaks pada bahasa pemrograman yang menghasilkan sebuah nilai.
+ */
+
 public class expression {
     public static void main(String[] args) {
         // menggunakan expresi dan statment
-        // 1
-        int a, b; // mendeklarasikan statment
-        a = 3;
+        // 1. Penggunaan Statment
+        // cth.
+        int a, b; // meruapakan statment yang mendeklarasikan instruksi
+
+        a = 3; // merupakan ekspresi karena menghasilkan nilai
         b = 4;
         a = a + b; // membuat expresi
         /**
