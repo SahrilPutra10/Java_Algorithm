@@ -1,4 +1,4 @@
-package Dasar;
+package Dasar.Pengenalan;
 // apa itu inisiasi dan deklrasi variabel? 
 
 public class Deklarasi_Inisiasi {

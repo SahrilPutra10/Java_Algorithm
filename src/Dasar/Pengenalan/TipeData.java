@@ -77,7 +77,5 @@ public class TipeData {
         System.out.println("Char : " + c);
         System.out.println("String : " + s);
         System.out.println("Boolean : " + myBolean);
-
     }
-
 }
