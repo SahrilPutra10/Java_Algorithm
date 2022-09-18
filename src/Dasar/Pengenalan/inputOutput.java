@@ -50,6 +50,7 @@ public class inputOutput {
         // menemui eror.
 
         /* Perintah output */
+        System.out.println("Masukan anda :" + value);
         System.out.println("Dicetak pakai println()"); // Penggunaan println akan menampilkan teks dan tambahan baris
                                                        // baru.
         System.out.println("Ini juga dicetak pakai println()");
@@ -57,5 +58,6 @@ public class inputOutput {
                                                         // sesuai dengan yang dimasukkan.
         System.out.print(" dan ini juga dicetak dengan print()");
 
+        baca.close();
     }
 }
