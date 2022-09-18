@@ -1,7 +1,7 @@
 package Dasar.Pengenalan;
 // apa itu inisiasi dan deklrasi variabel? 
 
-public class Deklarasi_Inisiasi {
+public class DDeklarasi_Inisiasi {
 
     public static void main(String[] args) {
         /*

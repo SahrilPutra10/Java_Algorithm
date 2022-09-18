@@ -24,7 +24,7 @@ package Dasar.Pengenalan;
  * import java.util.Scanner;
  */
 
-public class strukturDasar { // sebuah class constructor
+public class AstrukturDasar { // sebuah class constructor
     /*
      * #3.0 Constructor
      * Constructor merupakan suatu method yang akan memberikan nilai awal pada saat

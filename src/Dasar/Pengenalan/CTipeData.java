@@ -1,7 +1,7 @@
 package Dasar.Pengenalan;
 
 //  Tipe data adalah sebuah pengklasifikasian data berdasarkan jenis data tersebut. 
-public class TipeData {
+public class CTipeData {
     public static void main(String[] args) {
 
         /*

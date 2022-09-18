@@ -13,7 +13,7 @@ package Dasar.Pengenalan;
  * EKSPRESI adalah entitas sintaks pada bahasa pemrograman yang menghasilkan sebuah nilai.
  */
 
-public class expression {
+public class Bexpression {
     public static void main(String[] args) {
         // menggunakan expresi dan statment
         // 1. Penggunaan Statment

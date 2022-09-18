@@ -27,7 +27,7 @@ import java.util.Scanner;
 //dan mengambil input dari pengguna. Scanner memiliki kemudahan yang dapat 
 //membaca teks, baik yang memiliki tipe data primitif maupun string.
 
-public class inputOutput {
+public class EinputOutput {
     public static void main(String[] args) {
 
         Scanner baca = new Scanner(System.in); // inisiasi awal scanner
