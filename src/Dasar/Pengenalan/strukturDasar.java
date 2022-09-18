@@ -25,7 +25,20 @@ package Dasar.Pengenalan;
  */
 
 public class strukturDasar { // sebuah class constructor
+    /*
+     * #3.0 Constructor
+     * Constructor merupakan suatu method yang akan memberikan nilai awal pada saat
+     * suatu objek dibuat. Pada saat program dijalankan,
+     * constructor akan langsung memberikan nilai awal pada saat perintah new,
+     * dan langusng membuat suatu objek.
+     */
     public static void main(String[] args) { // method class main
+        /*
+         ** #4.0 Method
+         * adalah kumpulan baris kode yang dikelompokkan untuk menjalankan tugas
+         * tertentu. Sebuah method dapat mengembalikan nilai tertentu (memiliki return
+         * value), bisa juga tidak (void).
+         */
         System.out.println("Hello World");
     }
 }
