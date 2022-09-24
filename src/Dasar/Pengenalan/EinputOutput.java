@@ -55,7 +55,7 @@ public class EinputOutput {
                                                        // baru.
         System.out.println("Ini juga dicetak pakai println()");
         System.out.print("Ini dicetak dengan print()"); // Sedangkan fungsi print menampilkan output berupa teks
-                                                        // sesuai dengan yang dimasukkan.
+                                                        // sesuai dengan yang dimasukkan. tanpa memberikan baris
         System.out.print(" dan ini juga dicetak dengan print()");
 
         baca.close();
