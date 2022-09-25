@@ -10,6 +10,8 @@ public class tipeData {
         f = 3.0f;
         f = f + j / i;
 
+        System.out.printf("Value of f is : %f %d %d \n", f, i, j);
         System.out.println("Value of f is : " + f);
+        System.out.print("Value of f is : \n" + f);
     }
 }
